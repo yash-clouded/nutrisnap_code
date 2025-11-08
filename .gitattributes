@@ -1,0 +1,8 @@
+*.apk filter=lfs diff=lfs merge=lfs -text
+
+# If you enable Git LFS locally, run:
+# git lfs install
+# git lfs track "*.apk"
+# git add .gitattributes
+# git add <large-files>
+# git commit -m "Track APKs with Git LFS"

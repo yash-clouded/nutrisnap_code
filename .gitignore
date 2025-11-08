@@ -1,1 +1,43 @@
 app-release.apk
+
+# Flutter / Dart / Android ignores
+
+# Built application files
+*.apk
+*.aar
+*.ap_ 
+
+# Flutter build outputs
+/build/
+/.dart_tool/
+/.packages
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.pub-cache/
+
+# Android/IntelliJ
+/.gradle/
+/.idea/
+/*.iml
+local.properties
+
+# Xcode
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+Pods/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# VS Code
+.vscode/
+
+# Misc
+*.log
+*.swp
+*~
+
+# Ignore the specific release APK that was accidentally added
+app-release.apk
+
+# If you plan to keep large binary releases, consider using Git LFS instead of committing them
