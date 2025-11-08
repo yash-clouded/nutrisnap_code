@@ -1,0 +1,8 @@
+Create the virtual environment
+     python3 -m venv .venv && source .venv/bin/activate
+     pip install --upgrade pip
+     pip install -r requirements.txt
+
+Add new dependencies to the requirements.txt file and run 'pip install -r requirements.txt'
+To activate the venv use below command in terminal
+    'source .venv/bin/activate'

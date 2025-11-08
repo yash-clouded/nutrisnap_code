@@ -1,0 +1,36 @@
+
+name: nutisnap
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  camera: ^0.11.0+2
+  fl_chart: ^0.68.0
+  image_picker: ^1.0.7
+  http: ^1.2.0
+  flutter_dotenv: ^5.1.0
+
+  # --- Upgrading to a modern, stable version of pytorch_lite ---
+  pytorch_lite: ^4.3.2
+  image: ^4.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/models/indianfood_mobilenetv2.pt
+    - assets/labels/indian_food_labels.txt
